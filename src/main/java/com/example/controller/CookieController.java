@@ -11,6 +11,7 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class CookieController {
 
+	//test
 	@RequestMapping("/test/cookie")
 	public String cookie(@RequestParam("browser")String browser, HttpServletRequest request, HttpSession session){
 		Object sessionBrowser = session.getAttribute("browser");
